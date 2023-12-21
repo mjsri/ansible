@@ -5,7 +5,7 @@
     prompt: please enter username
     private: false #user can see what they are entering
   - name: PASSWORD
-    prompt: please enter username
+    prompt: please enter password
     private: true #user cannot see what they are entering
   tasks:
   - name: printand check the values
