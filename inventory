@@ -5,9 +5,12 @@
 localhost
 
 [localhost:vars]
-Course="Devops from inventory"
-Trainer="siva"
+Course="DevOps from inventory"
+Trainer="Sivakumar"
 Duration="110hrs"
+
+PERSON="srikanth"
+WISHES="Morning"
 
 [web]
 54.80.99.253
