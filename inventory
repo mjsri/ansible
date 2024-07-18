@@ -1,5 +1,6 @@
 192.168.56.20
 192.168.56.30
+
 [localhost]
 localhost
 
@@ -12,7 +13,7 @@ PERSON="srikanth"
 WISHES="Morning"
 
 [web]
-44.210.128.30
+
 
 [catalogue]
 192.168.56.5
