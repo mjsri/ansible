@@ -7,7 +7,7 @@
     Duration: "110 hrs"
   tasks:
   - name: check variable
-    vars: # If any variable is available in Play and task eith same variable name it will consider task level 
+    vars: # If any variable is available in Play and task with same variable name it will consider task level 
       course: "DevOps with AWS"
     ansible.builtin.debug:
       msg: "Hi, I am learning {{course}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
