@@ -3,6 +3,6 @@
   vars_files:
   - variables.yaml
   tasks:
-  - name: check variable
+  - name: check variable from file
     ansible.builtin.debug:
       msg: "Hi, I am learning {{course}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
