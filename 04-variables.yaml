@@ -6,6 +6,6 @@
     Trainer: "sivakumar"
     Duration: "110 hrs"
   tasks:
-  - name: check variable
+  - name: check variable from play level
     ansible.builtin.debug:
       msg: "Hi, I am learning {{course}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
