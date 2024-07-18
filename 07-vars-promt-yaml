@@ -1,5 +1,6 @@
 - name: variable from prompt
   hosts: localhost
+  become: yes
   vars_prompt:
   - name: USERNAME
     prompt: please enter username
