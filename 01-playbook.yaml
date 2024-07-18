@@ -1,5 +1,5 @@
 - name: ping playbook
   hosts: web
   tasks: 
-  - name : ping server
+  - name : Ping node server
     ansible.builtin.ping:
